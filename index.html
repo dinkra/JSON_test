@@ -16,11 +16,10 @@
     <script src="//apis.google.com/js/client.js?onload=googleApiClientReady"></script>
 </head>
 <body>
-    <form id="search-form">
-        <input id="query"></input> 
-        <button type="button">submit</button>
-
-		<div id="search-results"></div>                
-    </form>
+    <div id="buttons">
+      	<label> <input id="query" value='cats' type="text"/><button id="search-button" disabled onclick="search()">Search</button></label>
+    </div>
+    <div id="search-container">
+    </div>
 </body>
 </html>
